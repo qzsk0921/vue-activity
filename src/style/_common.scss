@@ -1,0 +1,6 @@
+@import './variables.scss';
+
+// px to rem
+@function px2rem ($px) {
+    @return #{$px / $ue-width * 10}rem;
+}
